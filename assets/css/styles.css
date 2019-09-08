@@ -1,0 +1,19 @@
+body{
+    /*background-image: url("../images/chanin-suasungnern-stanlee03.jpg") ,url("../images/download.jpg");*/
+    background-image: url("../images/download.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(255,255,255,0.6);
+    background-blend-mode: lighten;
+}
+.colorwhite{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    padding:20px;
+    width: 40%;
+    background-image:
+      linear-gradient(rgba(240, 40, 40, 1),
+        rgba(240, 40, 40, 1) );
+    background-clip: content-box, padding-box;
+    margin: auto;
+}
