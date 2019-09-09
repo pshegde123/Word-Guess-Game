@@ -1,8 +1,12 @@
+/*
+    Hangman game
+    Author: Pradnya Hegde
+    GT Coding bootcamp 9/9/2019
+*/
 body{
-    /*background-image: url("../images/chanin-suasungnern-stanlee03.jpg") ,url("../images/download.jpg");*/
-    background-image: url("../images/download.jpg");
+    background-image: url("../images/bgwallpaper.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-color: rgb(255,255,255,0.6);
     background-blend-mode: lighten;
 }
@@ -11,9 +15,25 @@ body{
     font-family: 'Oswald', sans-serif;
     padding:20px;
     width: 40%;
-    background-image:
-      linear-gradient(rgba(240, 40, 40, 1),
-        rgba(240, 40, 40, 1) );
-    background-clip: content-box, padding-box;
-    margin: auto;
+    background-color:#FF6347;
+    width: 100%;;
+    margin:auto;
+}
+.gamecolumn{
+    padding-top: 20px;
+    text-align: center;
+    min-height: 500px;
+}
+#youwin-image,#gameover-image,#pressKeyTryAgain{
+    display:none;
+}
+h1,h2,h3,
+h4,h5,h6 {
+    padding: 5px;
+    min-height: 20px;
+    background-color:#BC8F8F;
+    font-family: fantasy;
+    font-size: 20px;
+    color: white;
+    
 }
