@@ -12,29 +12,30 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="display-1 text-center colorwhite">Hangman</h1>
-        <div class="row border">
-            <div class="col-6  border border-dark gamecolumn">
-               <img id="win-img" src="assets/images/win.jpg"  alt="Winning game" style="width:250px;height=250px"/>
-               <img id="lose-img" src="assets/images/lose.jpg"  alt="Game lost" style="width:250px;height=250px"/>
+        <h1 class="display-1 border text-center colorwhite">Hangman</h1>
+        <div class="row border m-0 w-100">
+            <div class="col-6  bg-light border border-dark gamecolumn">
+               <img id="youwin-image" src="assets/images/you-win.png" alt="Winning Image" />
+               <img id="gameover-image" src="assets/images/gameover.png" alt="Game Over Image" />
                <h2 id="pressKeyTryAgain">Press any key to try again</h2>
                <img id="hangmanImage" src="" alt=""/>
             </div>
-            <div class="col-6 bg-secondary border border-dark gamecolumn">
-                <h2>Press any key to get started!</h2>
-                <h4>Wins</h4>
+            <div class="col-6 bg-light border border-dark gamecolumn">
+                <h2 class="text-dark">Press any key to get started!</h2>
+                <br>
+                <h4 class="mt-2">Wins</h4>
                 <h5 id="totalWins">0</h5>
                 <h4>Current Word</h4>
-                <h3 id="currentWord"></h3>
+                <h3 id="currentWord" style="min-height: 30px;"></h3>
                 <h4>Guesses Remaining</h4>
-                <h6 id="remainingGuesses">14</h6>
+                <h6 id="remainingGuesses">10</h6>
                 <h4>Letters Guessed</h4>
-                <h3 id="guessedLetters"></h3>
+                <h3 id="guessedLetters" style="min-height: 30px;"></h3>
             </div>
         </div>    
     </div>
     <!-- include javascript file game.js-->
-    <script type="text/javascript" src="assets/javascript/game-old.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
     <!--Optional Javascript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
